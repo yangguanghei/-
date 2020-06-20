@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1B6A46C249E279F00329BE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A46B249E279F00329BE8 /* AppDelegate.m */; };
+		C1B6A46F249E279F00329BE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A46E249E279F00329BE8 /* SceneDelegate.m */; };
+		C1B6A472249E279F00329BE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A471249E279F00329BE8 /* ViewController.m */; };
+		C1B6A475249E279F00329BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B6A473249E279F00329BE8 /* Main.storyboard */; };
+		C1B6A477249E27A300329BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B6A476249E27A300329BE8 /* Assets.xcassets */; };
+		C1B6A47A249E27A300329BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B6A478249E27A300329BE8 /* LaunchScreen.storyboard */; };
+		C1B6A47D249E27A300329BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A47C249E27A300329BE8 /* main.m */; };
+		C1B6A487249E27A300329BE8 /* _3__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A486249E27A300329BE8 /* _3__________Tests.m */; };
+		C1B6A492249E27A400329BE8 /* _3__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A491249E27A400329BE8 /* _3__________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1B6A483249E27A300329BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B6A45F249E279F00329BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B6A466249E279F00329BE8;
+			remoteInfo = "23.扩大按钮的点击区域";
+		};
+		C1B6A48E249E27A400329BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B6A45F249E279F00329BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B6A466249E279F00329BE8;
+			remoteInfo = "23.扩大按钮的点击区域";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1B6A467249E279F00329BE8 /* 23.扩大按钮的点击区域.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "23.扩大按钮的点击区域.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B6A46A249E279F00329BE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1B6A46B249E279F00329BE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1B6A46D249E279F00329BE8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C1B6A46E249E279F00329BE8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C1B6A470249E279F00329BE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1B6A471249E279F00329BE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1B6A474249E279F00329BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B6A476249E27A300329BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B6A479249E27A300329BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1B6A47B249E27A300329BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B6A47C249E27A300329BE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1B6A482249E27A300329BE8 /* 23.扩大按钮的点击区域Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "23.扩大按钮的点击区域Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B6A486249E27A300329BE8 /* _3__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3__________Tests.m"; sourceTree = "<group>"; };
+		C1B6A488249E27A300329BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B6A48D249E27A300329BE8 /* 23.扩大按钮的点击区域UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "23.扩大按钮的点击区域UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B6A491249E27A400329BE8 /* _3__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3__________UITests.m"; sourceTree = "<group>"; };
+		C1B6A493249E27A400329BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B6A464249E279F00329BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6A47F249E27A300329BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6A48A249E27A300329BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1B6A45E249E279F00329BE8 = {
+			isa = PBXGroup;
+			children = (
+				C1B6A469249E279F00329BE8 /* 23.扩大按钮的点击区域 */,
+				C1B6A485249E27A300329BE8 /* 23.扩大按钮的点击区域Tests */,
+				C1B6A490249E27A400329BE8 /* 23.扩大按钮的点击区域UITests */,
+				C1B6A468249E279F00329BE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B6A468249E279F00329BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6A467249E279F00329BE8 /* 23.扩大按钮的点击区域.app */,
+				C1B6A482249E27A300329BE8 /* 23.扩大按钮的点击区域Tests.xctest */,
+				C1B6A48D249E27A300329BE8 /* 23.扩大按钮的点击区域UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B6A469249E279F00329BE8 /* 23.扩大按钮的点击区域 */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6A46A249E279F00329BE8 /* AppDelegate.h */,
+				C1B6A46B249E279F00329BE8 /* AppDelegate.m */,
+				C1B6A46D249E279F00329BE8 /* SceneDelegate.h */,
+				C1B6A46E249E279F00329BE8 /* SceneDelegate.m */,
+				C1B6A470249E279F00329BE8 /* ViewController.h */,
+				C1B6A471249E279F00329BE8 /* ViewController.m */,
+				C1B6A473249E279F00329BE8 /* Main.storyboard */,
+				C1B6A476249E27A300329BE8 /* Assets.xcassets */,
+				C1B6A478249E27A300329BE8 /* LaunchScreen.storyboard */,
+				C1B6A47B249E27A300329BE8 /* Info.plist */,
+				C1B6A47C249E27A300329BE8 /* main.m */,
+			);
+			path = "23.扩大按钮的点击区域";
+			sourceTree = "<group>";
+		};
+		C1B6A485249E27A300329BE8 /* 23.扩大按钮的点击区域Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6A486249E27A300329BE8 /* _3__________Tests.m */,
+				C1B6A488249E27A300329BE8 /* Info.plist */,
+			);
+			path = "23.扩大按钮的点击区域Tests";
+			sourceTree = "<group>";
+		};
+		C1B6A490249E27A400329BE8 /* 23.扩大按钮的点击区域UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6A491249E27A400329BE8 /* _3__________UITests.m */,
+				C1B6A493249E27A400329BE8 /* Info.plist */,
+			);
+			path = "23.扩大按钮的点击区域UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B6A466249E279F00329BE8 /* 23.扩大按钮的点击区域 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B6A496249E27A400329BE8 /* Build configuration list for PBXNativeTarget "23.扩大按钮的点击区域" */;
+			buildPhases = (
+				C1B6A463249E279F00329BE8 /* Sources */,
+				C1B6A464249E279F00329BE8 /* Frameworks */,
+				C1B6A465249E279F00329BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "23.扩大按钮的点击区域";
+			productName = "23.扩大按钮的点击区域";
+			productReference = C1B6A467249E279F00329BE8 /* 23.扩大按钮的点击区域.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1B6A481249E27A300329BE8 /* 23.扩大按钮的点击区域Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B6A499249E27A400329BE8 /* Build configuration list for PBXNativeTarget "23.扩大按钮的点击区域Tests" */;
+			buildPhases = (
+				C1B6A47E249E27A300329BE8 /* Sources */,
+				C1B6A47F249E27A300329BE8 /* Frameworks */,
+				C1B6A480249E27A300329BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B6A484249E27A300329BE8 /* PBXTargetDependency */,
+			);
+			name = "23.扩大按钮的点击区域Tests";
+			productName = "23.扩大按钮的点击区域Tests";
+			productReference = C1B6A482249E27A300329BE8 /* 23.扩大按钮的点击区域Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1B6A48C249E27A300329BE8 /* 23.扩大按钮的点击区域UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B6A49C249E27A400329BE8 /* Build configuration list for PBXNativeTarget "23.扩大按钮的点击区域UITests" */;
+			buildPhases = (
+				C1B6A489249E27A300329BE8 /* Sources */,
+				C1B6A48A249E27A300329BE8 /* Frameworks */,
+				C1B6A48B249E27A300329BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B6A48F249E27A400329BE8 /* PBXTargetDependency */,
+			);
+			name = "23.扩大按钮的点击区域UITests";
+			productName = "23.扩大按钮的点击区域UITests";
+			productReference = C1B6A48D249E27A300329BE8 /* 23.扩大按钮的点击区域UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B6A45F249E279F00329BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "梁森";
+				TargetAttributes = {
+					C1B6A466249E279F00329BE8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C1B6A481249E27A300329BE8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C1B6A466249E279F00329BE8;
+					};
+					C1B6A48C249E27A300329BE8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C1B6A466249E279F00329BE8;
+					};
+				};
+			};
+			buildConfigurationList = C1B6A462249E279F00329BE8 /* Build configuration list for PBXProject "23.扩大按钮的点击区域" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B6A45E249E279F00329BE8;
+			productRefGroup = C1B6A468249E279F00329BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B6A466249E279F00329BE8 /* 23.扩大按钮的点击区域 */,
+				C1B6A481249E27A300329BE8 /* 23.扩大按钮的点击区域Tests */,
+				C1B6A48C249E27A300329BE8 /* 23.扩大按钮的点击区域UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B6A465249E279F00329BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B6A47A249E27A300329BE8 /* LaunchScreen.storyboard in Resources */,
+				C1B6A477249E27A300329BE8 /* Assets.xcassets in Resources */,
+				C1B6A475249E279F00329BE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6A480249E27A300329BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6A48B249E27A300329BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B6A463249E279F00329BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B6A472249E279F00329BE8 /* ViewController.m in Sources */,
+				C1B6A46C249E279F00329BE8 /* AppDelegate.m in Sources */,
+				C1B6A47D249E27A300329BE8 /* main.m in Sources */,
+				C1B6A46F249E279F00329BE8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6A47E249E27A300329BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B6A487249E27A300329BE8 /* _3__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6A489249E27A300329BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B6A492249E27A400329BE8 /* _3__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1B6A484249E27A300329BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B6A466249E279F00329BE8 /* 23.扩大按钮的点击区域 */;
+			targetProxy = C1B6A483249E27A300329BE8 /* PBXContainerItemProxy */;
+		};
+		C1B6A48F249E27A400329BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B6A466249E279F00329BE8 /* 23.扩大按钮的点击区域 */;
+			targetProxy = C1B6A48E249E27A400329BE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1B6A473249E279F00329BE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B6A474249E279F00329BE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B6A478249E27A300329BE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B6A479249E27A300329BE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B6A494249E27A400329BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1B6A495249E27A400329BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B6A497249E27A400329BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = "23.扩大按钮的点击区域/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ls.ls.-3----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1B6A498249E27A400329BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = "23.扩大按钮的点击区域/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ls.ls.-3----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1B6A49A249E27A400329BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = "23.扩大按钮的点击区域Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ls.ls.-3----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/23.扩大按钮的点击区域.app/23.扩大按钮的点击区域";
+			};
+			name = Debug;
+		};
+		C1B6A49B249E27A400329BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = "23.扩大按钮的点击区域Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ls.ls.-3----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/23.扩大按钮的点击区域.app/23.扩大按钮的点击区域";
+			};
+			name = Release;
+		};
+		C1B6A49D249E27A400329BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = "23.扩大按钮的点击区域UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ls.ls.-3----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "23.扩大按钮的点击区域";
+			};
+			name = Debug;
+		};
+		C1B6A49E249E27A400329BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GP5T8P44;
+				INFOPLIST_FILE = "23.扩大按钮的点击区域UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ls.ls.-3----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "23.扩大按钮的点击区域";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B6A462249E279F00329BE8 /* Build configuration list for PBXProject "23.扩大按钮的点击区域" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B6A494249E27A400329BE8 /* Debug */,
+				C1B6A495249E27A400329BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B6A496249E27A400329BE8 /* Build configuration list for PBXNativeTarget "23.扩大按钮的点击区域" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B6A497249E27A400329BE8 /* Debug */,
+				C1B6A498249E27A400329BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B6A499249E27A400329BE8 /* Build configuration list for PBXNativeTarget "23.扩大按钮的点击区域Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B6A49A249E27A400329BE8 /* Debug */,
+				C1B6A49B249E27A400329BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B6A49C249E27A400329BE8 /* Build configuration list for PBXNativeTarget "23.扩大按钮的点击区域UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B6A49D249E27A400329BE8 /* Debug */,
+				C1B6A49E249E27A400329BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B6A45F249E279F00329BE8 /* Project object */;
+}
