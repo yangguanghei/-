@@ -16,6 +16,7 @@
 		C1B6A47D249E27A300329BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A47C249E27A300329BE8 /* main.m */; };
 		C1B6A487249E27A300329BE8 /* _3__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A486249E27A300329BE8 /* _3__________Tests.m */; };
 		C1B6A492249E27A400329BE8 /* _3__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A491249E27A400329BE8 /* _3__________UITests.m */; };
+		C1B6A4A1249E27D300329BE8 /* UIButton+changeEffectiveArea.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B6A49F249E27D300329BE8 /* UIButton+changeEffectiveArea.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C1B6A48D249E27A300329BE8 /* 23.扩大按钮的点击区域UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "23.扩大按钮的点击区域UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B6A491249E27A400329BE8 /* _3__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3__________UITests.m"; sourceTree = "<group>"; };
 		C1B6A493249E27A400329BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B6A49F249E27D300329BE8 /* UIButton+changeEffectiveArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+changeEffectiveArea.m"; sourceTree = "<group>"; };
+		C1B6A4A0249E27D300329BE8 /* UIButton+changeEffectiveArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+changeEffectiveArea.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		C1B6A469249E279F00329BE8 /* 23.扩大按钮的点击区域 */ = {
 			isa = PBXGroup;
 			children = (
+				C1B6A4A0249E27D300329BE8 /* UIButton+changeEffectiveArea.h */,
+				C1B6A49F249E27D300329BE8 /* UIButton+changeEffectiveArea.m */,
 				C1B6A46A249E279F00329BE8 /* AppDelegate.h */,
 				C1B6A46B249E279F00329BE8 /* AppDelegate.m */,
 				C1B6A46D249E279F00329BE8 /* SceneDelegate.h */,
@@ -271,6 +276,7 @@
 				C1B6A46C249E279F00329BE8 /* AppDelegate.m in Sources */,
 				C1B6A47D249E27A300329BE8 /* main.m in Sources */,
 				C1B6A46F249E279F00329BE8 /* SceneDelegate.m in Sources */,
+				C1B6A4A1249E27D300329BE8 /* UIButton+changeEffectiveArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "UIButton+changeEffectiveArea.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor greenColor];
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [self.view addSubview:btn];
+    btn.backgroundColor = [UIColor redColor];
+    btn.frame = CGRectMake(100, 100, 50, 50);
+    [btn setTitle:@"点我" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(clickBtn) forControlEvents:UIControlEventTouchUpInside];
+    btn.clickArea = @"2";
+}
+
+- (void)clickBtn{
+    NSLog(@"点击按钮...");
 }
 
 
